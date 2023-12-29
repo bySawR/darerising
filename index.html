@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=block" rel="stylesheet">
     <style>
+
         body {
             margin: 0;
             padding: 0;
@@ -25,9 +26,40 @@
             color: white;
             font-size: 60px;
         }
+
+        header, header a {
+            color: white;
+            text-decoration: none;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            padding: 10px 30px;
+            justify-content: space-between;
+        }
+        
+        ul {
+            display: flex;
+            gap: 20px;
+        }
+
+        li {
+            list-style: none;
+        }
     </style>
 </head>
-
+<header>
+    <nav>
+        <div class="logo">
+            <h4>DareRising</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
     <div class="dare-front">
         <h1>DareRising</h1>
