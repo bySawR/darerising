@@ -47,7 +47,7 @@ h2 {
             width: 767px;
             box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
             box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.30) inset;
-            background-color: #0067f875;
+            background-color: #053b83a6;
             backdrop-filter: blur(30px);
         }
         
@@ -73,12 +73,15 @@ h2 {
 
         .blue-body {
             color: white;
+            background-image: url(assets/background-logo.png);
+            /*
             background: linear-gradient(270deg, #0068f8, #053b83);
             background-size: 400% 400%;
         
             -webkit-animation: AnimationName 14s ease infinite;
             -moz-animation: AnimationName 14s ease infinite;
             animation: AnimationName 14s ease infinite;
+            */
         }
 
         footer {
@@ -113,44 +116,4 @@ h2 {
             50%{background-position:100% 50%}
             100%{background-position:0% 50%}
         }
-
-        @media only screen and (max-width: 767px) {
-            nav {
-                width: 100%;
-                padding: 15px;
-            }
-            .dare-front {
-                padding: 30px;
-                font-size: 30px;
-                line-height: 60px;
-            }
-            iframe {
-                border-radius: 20px;
-            }
-        header {
-            position: fixed;
-            width: 100%;
-            z-index: 1000;
-        }
-        footer {
-            padding: 30px;
-        }
-        .blue-body,
-.white-body {
-    min-height: 70vh;
-}
-.nav-links {
-    display: flex;
-    gap: 15px;
-}
-.logo-wrapper img {
-    width: 30px;
-}
-    }
-@media only screen and (max-width: 767px) {
-    .blue-body {
-        background: linear-gradient(270deg, #0068f8, #053b83);
-        animation: none;
-    }
-}
 
