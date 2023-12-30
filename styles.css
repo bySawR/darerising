@@ -94,16 +94,15 @@ h2 {
 
         .blue-body {
             color: white;
-            background-image: url(assets/background-logo.png);
-            /*
-            background: linear-gradient(270deg, #0068f8, #053b83);
-            background-size: 400% 400%;
-        
-            -webkit-animation: AnimationName 14s ease infinite;
-            -moz-animation: AnimationName 14s ease infinite;
-            animation: AnimationName 14s ease infinite;
-            */
-        }
+            background: url(https://darerising.bysawr.com/assets/background-logo.png) repeat 0 0;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            height: 550px;
+            padding-top: 120px;
+            box-sizing: border-box;
+            -webkit-animation: slide 30s linear infinite;
+          }
 
         footer {
             background-color: var(--blue);
@@ -190,4 +189,9 @@ h2 {
 .dare-ad-image img {
     height: 100px;
     transform: scale(4);
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -512px -512px; }
 }
