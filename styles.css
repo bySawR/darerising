@@ -71,6 +71,7 @@ h2 {
             display: flex;
             gap: 20px;
             padding: 0;
+            align-items: center;
         }
 
         li {
@@ -102,7 +103,7 @@ h2 {
         }
 
         footer {
-            background-color: #053b83;
+            background-color: var(--blue);
             padding: 60px;
             color: white;
         }
