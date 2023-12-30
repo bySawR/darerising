@@ -1,7 +1,17 @@
-        body {
+:root {
+    --blue: #0068F8;
+    --darkblue: #053b83;
+}
+
+body {
             margin: 0;
             padding: 0;
             font-family: Poppins, sans-serif;
+        }
+
+        nav ul a:hover {
+            text-decoration: underline;
+            text-underline-offset: 5px;
         }
 
         .dare-front {
@@ -28,13 +38,18 @@ h2 {
     font-size: 60px;
 }
 
-        header, header a {
+        header {
             color: white;
             display: flex;
             text-decoration: none;
             width: 100%;
             align-items: center;
             justify-content: center;
+        }
+
+        header a {
+            color: inherit;
+            text-decoration: none;
         }
 
         nav {
@@ -46,14 +61,16 @@ h2 {
             justify-content: space-between;
             width: 767px;
             box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-            box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.30) inset;
-            background-color: #053b83a6;
+            box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.30) inset;
+            background-color: #0972ffa6;
             backdrop-filter: blur(30px);
+            align-items: center;
         }
         
         ul {
             display: flex;
             gap: 20px;
+            padding: 0;
         }
 
         li {
@@ -117,3 +134,56 @@ h2 {
             100%{background-position:0% 50%}
         }
 
+.shop-wrapper {
+    padding: 10px;
+    border-radius: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    outline: 1px solid white;
+    width: 75px;
+    transition: all 0.3s ease-in;
+}
+
+.shop-wrapper:hover {
+    background-color: #053b83;
+}
+
+.shop-wrapper:active {
+    transform: scale(0.9);
+}
+
+.front-heading {
+    font-size: 60px;
+    text-align: left;
+    line-height: 64px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.front-subtitle {
+    font-size: 20px;
+    text-align: left;
+    color: var(--blue);
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.dare-ad-wrapper {
+    background-color: var(--blue);
+    color: white;
+    padding: 90px;
+    border-radius: 60px;
+}
+
+.dare-ad {
+    display: flex;
+}
+
+.dare-ad-image img {
+    height: 100px;
+    transform: scale(4);
+}
