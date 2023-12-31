@@ -26,7 +26,7 @@ nav ul a:hover {
     align-items: center;
     color: inherit;
     font-size: 60px;
-    padding: 90px;
+    padding: 70px;
     background-color: inherit;
     min-height: 70vh;
     gap: 20px;
@@ -102,9 +102,9 @@ li {
     background: url(https://darerising.bysawr.com/assets/background-logo.png) repeat 0 0;
     width: 100%;
     margin: 0;
-    min-height: 30vh;
+    height: 70vh;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 0px;
     box-sizing: border-box;
     -webkit-animation: slide 30s linear infinite;
 }
