@@ -1,13 +1,29 @@
+:root {
+    --black: rgba(17, 18, 18, 1);
+    --blue: rgba(0, 104, 248, 1);
+    --white: rgba(255, 255, 255, 1);
+    --dark-blue: rgba(32, 79, 181, 1);
+}
+
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 50px;
     position: relative;
     background-color: #ffffff;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: #dadada;
+    margin: 0;
 }
 
 .header .logo-wrapper {
@@ -75,26 +91,38 @@
     position: relative;
 }
 
-.header .button-primary {
-    width: 140px;
+.button-primary {
+    display: flex;
+    width: 100px;
+    align-items: center;
     justify-content: center;
     gap: 10px;
     padding: 15px 30px;
+    position: relative;
     background-color: var(--blue);
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    position: relative;
+    color: white;
 }
 
-.header .text-wrapper-2 {
+.button-primary .text-wrapper {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
 }
+
+.hero-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 50px;
+    position: relative;
+    background-image: url(assets/merch/DARE-MERCH-01.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* or adjust this value as needed */
+    border-radius: 20px;
+}
+
