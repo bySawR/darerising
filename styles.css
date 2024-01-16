@@ -398,7 +398,7 @@ gap: 25px;
 
   .dare-product-wrapper:hover {
     background: rgba(0, 104, 248, 0.30);
-    outline-color: var(--black);
+    outline-color: rgba(0, 104, 248, 0.30);
   }
 
   .dare-product-wrapper img {
