@@ -14,6 +14,7 @@ nav ul {
 .nav li {
   display: inline-block; /* Display list items inline */
   margin-right: 10px; /* Add some spacing between list items if needed */
+  margin-left: 10px;
 }
 
 .nav a {
@@ -54,6 +55,20 @@ body {
     border-color: #dadada;
     padding: 25px 50px;
     margin-bottom: 25px;
+    transition: top 0.3s; /* Add smooth transition for better user experience */
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: -webkit-fill-available;
+    z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a visual effect */
+}
+
+/* Add a padding to the body when the header becomes sticky to prevent content overlap */
+body.sticky-header-padding {
+    padding-top: 100px; /* Adjust this value based on your header's height */
 }
 
 section {
@@ -72,8 +87,8 @@ section {
 
 .header .logo {
     position: relative;
-    width: 50.65px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .header .logo-text {
@@ -137,6 +152,11 @@ section {
     background-color: var(--blue);
     border-radius: 10px;
     color: white;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+  background-color: var(--dark-blue);
 }
 
 .button-primary .text-wrapper {
