@@ -5,13 +5,35 @@
     --dark-blue: rgba(32, 79, 181, 1);
 }
 
+nav ul {
+  list-style: none; /* Remove the default list bullets */
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+}
+
+.nav li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 10px; /* Add some spacing between list items if needed */
+}
+
+.nav a {
+  text-decoration: none; /* Remove underline from anchor links */
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {
     font-family: Poppins, sans-serif;
+    text-underline-offset: 6px;
 }
 
 body {
