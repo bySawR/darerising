@@ -11,15 +11,19 @@ nav ul, .social-media-list ul {
     margin: 0; /* Remove any default margin */
 }
 
+nav ul {
+  display: flex; /* Display list items inline */
+  flex-direction: row;
+  gap: 20px;
+}
+
 body > footer > ul {
   display: flex;
   align-items: center;
 }
 
 .nav li, .social-media-list li {
-  display: inline-block; /* Display list items inline */
-  margin-right: 10px; /* Add some spacing between list items if needed */
-  margin-left: 10px;
+
 }
 
 .nav a {
@@ -59,7 +63,6 @@ body {
     border-bottom-style: solid;
     border-color: #dadada;
     padding: 10px 50px;
-    margin-bottom: 25px;
     transition: top 0.3s; /* Add smooth transition for better user experience */
 }
 
@@ -73,7 +76,7 @@ body {
 
 /* Add a padding to the body when the header becomes sticky to prevent content overlap */
 body.sticky-header-padding {
-    padding-top: 100px; /* Adjust this value based on your header's height */
+    padding-top: 75px; /* Adjust this value based on your header's height */
 }
 
 section {
@@ -88,6 +91,11 @@ section {
     position: relative;
     flex: 1;
     flex-grow: 1;
+    transition: 0.4;
+}
+
+.header .logo-wrapper:hover {
+  opacity: 0.4;
 }
 
 .header .logo {
@@ -139,8 +147,6 @@ section {
 .header .button-wrapper {
     justify-content: flex-end;
     gap: 20px;
-    flex: 1;
-    flex-grow: 1;
     display: flex;
     align-items: center;
     position: relative;
