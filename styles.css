@@ -126,3 +126,12 @@ body {
     border-radius: 20px;
 }
 
+.overlap-group .text-wrapper {
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 96px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px; /* 93.75% */
+}
