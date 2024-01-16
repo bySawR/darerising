@@ -58,7 +58,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: #dadada;
-    padding: 25px 50px;
+    padding: 10px 50px;
     margin-bottom: 25px;
     transition: top 0.3s; /* Add smooth transition for better user experience */
 }
@@ -455,7 +455,7 @@ gap: 25px;
       gap: 5px;
     }
     .image-container img {
-      height: 150px;
+      height: 200px;
     }
     .text-overlay {
       font-size: 18px;
@@ -505,4 +505,14 @@ display: none;
 .header .nav {
   flex: none;
 }
+footer {
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+body > footer > ul {
+  display: none;
+  }
   }
