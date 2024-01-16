@@ -237,7 +237,11 @@ line-height: 90px; /* 93.75% */
     display: block;
     object-fit: cover;
     overflow: hidden;
-    
+}
+
+.blue-section {
+  background-color: var(--blue);
+  color: white;
 }
 
   .text-overlay {
@@ -320,4 +324,9 @@ align-items: center;
   .footer-logo-text {
     font-size: 20px;
     font-weight: 600;
+  }
+
+  .dare-product-wrapper {
+    display: flex;
+    flex-direction: column;
   }
