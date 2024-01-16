@@ -71,7 +71,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: #dadada;
-    padding: 15px 50px;
+    padding: 15px 75px;
     transition: top 0.3s; /* Add smooth transition for better user experience */
 }
 
@@ -89,7 +89,7 @@ body.sticky-header-padding {
 }
 
 section {
-    padding: 0px 50px;
+    padding: 0px 75px;
     margin: 0;
 }
 
@@ -340,7 +340,7 @@ line-height: 90px; /* 93.75% */
   .dare-wrapper {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 0px;
+    padding: 75px 0px;
     gap: 50px;
     align-items: center;
   }
@@ -383,7 +383,7 @@ padding-bottom: 30px;
   footer {
     background-color: var(--blue);
     display: flex;
-padding: 75px 50px;
+padding: 75px 75px;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
