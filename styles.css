@@ -511,10 +511,12 @@ gap: 25px;
   padding: 10px;
 }
 .header .button-wrapper {
-display: none;
 }
 .header .logo-text {
   display: none!important;
+}
+.header .nav ul {
+gap: 10px;
 }
 .header .text-wrapper {
   display: none;
