@@ -148,7 +148,7 @@ section {
 
 .button-primary {
     display: flex;
-    width: 100px;
+    width: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
