@@ -362,6 +362,9 @@ font-size: 48px;
 font-style: normal;
 font-weight: 800;
 line-height: 56px;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 40px;
   }
 
   iframe {
@@ -578,4 +581,34 @@ body > footer > ul {
             transform: translateY(0);
     opacity: 1;
   }
+}
+
+.member-name {
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.member-title {
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.members-wrapper {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dare-member-wrapper {
+  width: calc(33% - 25px);
+}
+
+.dare-member-wrapper img {
+  width: 100%;
+  border-radius: 20px;
 }
