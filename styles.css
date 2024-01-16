@@ -5,13 +5,18 @@
     --dark-blue: rgba(32, 79, 181, 1);
 }
 
-nav ul {
+nav ul, .social-media-list ul {
   list-style: none; /* Remove the default list bullets */
     padding: 0; /* Remove any default padding */
     margin: 0; /* Remove any default margin */
 }
 
-.nav li {
+body > footer > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav li, .social-media-list li {
   display: inline-block; /* Display list items inline */
   margin-right: 10px; /* Add some spacing between list items if needed */
   margin-left: 10px;
@@ -317,8 +322,9 @@ line-height: 90px; /* 93.75% */
 
   .dare-wrapper {
     display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
     gap: 50px;
-    padding: 50px 100px;
     align-items: center;
   }
 
@@ -350,9 +356,10 @@ line-height: 66px; /* 113.793% */
     background-color: var(--blue);
     display: flex;
 padding: 75px 50px;
-flex-direction: column;
-justify-content: center;
+flex-direction: row;
+justify-content: space-between;
 align-items: center;
+gap: 25px;
   }
 
   .footer-logo-wrapper {
@@ -360,6 +367,11 @@ align-items: center;
     color: white;
     gap: 10px;
     align-items: center;
+  }
+
+  .footer-logo-wrapper img {
+ height: 40px;
+ widtH: 40px;
   }
 
   .footer-text-wrapper {
@@ -386,7 +398,7 @@ align-items: center;
 
   .dare-product-wrapper:hover {
     background: rgba(0, 104, 248, 0.30);
-    outline-color: #0068F8;
+    outline-color: var(--black);
   }
 
   .dare-product-wrapper img {
@@ -426,4 +438,43 @@ align-items: center;
     line-height: 66px;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    section {
+      padding: 0px 10px;
+    }
+    .text-overlay-hero {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    .image-container-hero img {
+      height: 250px;
+    }
+    .flex-container {
+      gap: 5px;
+    }
+    .image-container img {
+      height: 150px;
+    }
+    .text-overlay {
+      font-size: 18px;
+      bottom: 4px;
+      left: 4px;
+    }
+    body {
+      gap: 5px;
+    }
+    .dare-product-wrapper {
+      width: calc(50% - 5px);
+    }
+    .dare-products {
+      gap: 10px;
+    }
+    .product-meta-wrapper {
+      padding: 10px;
+  }
+  .dare-product-wrapper {
+  min-height: 275px;
+}
   }
