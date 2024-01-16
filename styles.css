@@ -336,15 +336,15 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 100% */
 letter-spacing: -1px;
+padding-bottom: 10px;
   }
 
   .dare-heading {
     color: #171717;
-font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 800;
-line-height: 66px; /* 113.793% */
+line-height: 56px;
   }
 
   iframe {
@@ -413,15 +413,15 @@ gap: 25px;
   }
 
   .product-meta {
-    text-align: center;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
     font-weight: 600;
+    padding-bottom: 5px;
   }
 
   .product-price {
-    text-align: center;
     font-size: 18px;
+    opacity: 0.4;
   }
 
   .product-meta-wrapper {
