@@ -23,7 +23,12 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: #dadada;
-    margin: 0;
+    padding: 25px 50px;
+    margin-bottom: 25px;
+}
+
+section {
+    padding: 25px 50px;
 }
 
 .header .logo-wrapper {
@@ -124,6 +129,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh; /* or adjust this value as needed */
     border-radius: 20px;
+    justify-content: center;
 }
 
 .overlap-group .text-wrapper {
