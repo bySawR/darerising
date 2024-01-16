@@ -5,21 +5,30 @@
     --dark-blue: rgba(32, 79, 181, 1);
 }
 
-nav ul, .social-media-list ul {
+nav ul {
   list-style: none; /* Remove the default list bullets */
     padding: 0; /* Remove any default padding */
     margin: 0; /* Remove any default margin */
 }
 
+.social-media-list ul {
+  list-style: none!important; /* Remove the default list bullets */
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+}
+
 nav ul {
-  display: flex; /* Display list items inline */
-  flex-direction: row;
-  gap: 20px;
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 
 body > footer > ul {
   display: flex;
   align-items: center;
+  list-style: none;
+  gap: 20px;
 }
 
 .nav li, .social-media-list li {
@@ -62,7 +71,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: #dadada;
-    padding: 10px 50px;
+    padding: 15px 50px;
     transition: top 0.3s; /* Add smooth transition for better user experience */
 }
 
@@ -125,7 +134,7 @@ section {
 .header .nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 30px;
     position: relative;
     flex: 1;
@@ -154,24 +163,26 @@ section {
 
 .button-primary {
     display: flex;
-    width: 70px;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     position: relative;
     background-color: var(--blue);
     border-radius: 10px;
     color: white;
     transition: background-color 0.3s;
+    text-decoration: none!important;
 }
 
 .button-primary:hover {
   background-color: var(--dark-blue);
+  text-decoration: none;
 }
 
 .button-primary .text-wrapper {
     position: relative;
+    text-decoration: none;
     width: fit-content;
     font-size: 20px;
     letter-spacing: 0;
