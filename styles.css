@@ -329,4 +329,41 @@ align-items: center;
   .dare-product-wrapper {
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    min-height: 325px;
+    outline: 1px solid #DCDCDC;
+    overflow: hidden;
+    background-color: white;
+    width: calc(25% - 25px);
+    transition: background-color 0.3s;
+  }
+
+  .dare-product-wrapper:hover {
+    background-color: #DCDCDC;
+  }
+
+  .dare-product-wrapper img {
+    
+  }
+
+  .dare-products {
+    display: flex;
+    gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+  .product-meta {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .product-price {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .product-meta-wrapper {
+    padding: 25px;
   }
