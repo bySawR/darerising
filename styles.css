@@ -639,6 +639,9 @@ line-height: normal;
   font-size: 20px;
   line-height: 24px;
 }
+.left-content-wrapper, .right-content-wrapper {
+  width: 100%!important;
+}
 }
 
 .social-media-list li {
@@ -656,4 +659,9 @@ line-height: normal;
 .blue-section {
   background-color: var(--blue);
   color: white!important;
+}
+
+.left-content-wrapper img, .right-content-wrapper img {
+  width: 100%;
+  height: 100%;
 }
