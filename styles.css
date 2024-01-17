@@ -545,6 +545,7 @@ footer {
 body > footer > ul {
   display: none;
   }
+  
   }
 
 
@@ -589,6 +590,7 @@ body > footer > ul {
             transform: translateY(0);
     opacity: 1;
   }
+  
 }
 
 .member-name {
@@ -619,4 +621,17 @@ line-height: normal;
 .dare-member-wrapper img {
   width: 100%;
   border-radius: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+.dare-member-wrapper {
+  width: 100%;
+}
+.members-wrapper {
+  gap: 25px;
+}
+.member-name {
+  font-size: 20px;
+  line-height: 24px;
+}
 }
