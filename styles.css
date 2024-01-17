@@ -26,9 +26,12 @@ nav ul {
 
 body > footer > ul {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   list-style: none;
-  gap: 20px;
+  gap: 0px;
+  flex-direction: column;
+  margin: 0;
+    padding: 0;
 }
 
 .nav li, .social-media-list li {
@@ -388,10 +391,11 @@ padding-bottom: 30px;
   footer {
     background-color: var(--blue);
     display: flex;
-padding: 25px 75px;
+    color: white;
+padding: 50px 75px;
 flex-direction: row;
 justify-content: space-between;
-align-items: center;
+align-items: flex-start;
 gap: 25px;
   }
 
@@ -650,6 +654,7 @@ line-height: normal;
 
 .social-media-list li:hover {
   opacity: 0.5; /* Adjust the opacity value as needed */
+  text-decoration: underline;
 }
 
 .left-content-wrapper, .right-content-wrapper {
@@ -673,4 +678,22 @@ line-height: normal;
   justify-content: center;
 
 height: 75vh;
+}
+
+.dare-footer-text {
+  color: inherit;
+  font-size: 12px;
+  margin: 0;
+    padding: 0;
+}
+
+.dare-footer-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-logo-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
