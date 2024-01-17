@@ -383,7 +383,7 @@ padding-bottom: 30px;
   footer {
     background-color: var(--blue);
     display: flex;
-padding: 75px 75px;
+padding: 25px 75px;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
