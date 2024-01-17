@@ -635,3 +635,11 @@ line-height: normal;
   line-height: 24px;
 }
 }
+
+.social-media-list li {
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.social-media-list li:hover {
+  opacity: 0.5; /* Adjust the opacity value as needed */
+}
