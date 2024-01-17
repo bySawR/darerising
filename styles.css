@@ -306,12 +306,6 @@ line-height: 90px; /* 93.75% */
     object-fit: cover;
     overflow: hidden;
 }
-
-.blue-section {
-  background-color: var(--blue);
-  color: white;
-}
-
   .text-overlay {
     position: absolute;
     bottom: 10px;
@@ -356,8 +350,19 @@ letter-spacing: -1px;
 padding-bottom: 10px;
   }
 
+  .dare-subtitle-inherit {
+    color: inherit;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 100% */
+letter-spacing: -1px;
+padding-bottom: 10px;
+  }
+
   .dare-heading-front {
-    color: #171717;
+    color: inherit;
 font-size: 48px;
 font-style: normal;
 font-weight: 800;
@@ -642,4 +647,13 @@ line-height: normal;
 
 .social-media-list li:hover {
   opacity: 0.5; /* Adjust the opacity value as needed */
+}
+
+.left-content-wrapper, .right-content-wrapper {
+  width: 50%;
+}
+
+.blue-section {
+  background-color: var(--blue);
+  color: white!important;
 }
