@@ -219,6 +219,12 @@ line-height: 90px; /* 93.75% */
     gap: 25px;
   }
 
+  .flex-container-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
   .full-width-container {
     display: flex;
     flex: 1;
