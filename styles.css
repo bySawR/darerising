@@ -283,7 +283,7 @@ line-height: 90px; /* 93.75% */
   }
   
   .image-container img, .image-container-hero img {
-    transition: transform 0.5s ease-out; /* Apply transition to the image */
+    transition: transform 0.7s ease-out; /* Apply transition to the image */
   }
   
   .image-container:hover {
