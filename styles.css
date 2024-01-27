@@ -277,7 +277,7 @@ line-height: 90px; /* 93.75% */
   .image-container {
     position: relative;
     flex: 1;
-    transition: filter 0.2s;
+    transition: filter 0.7s;
     border-radius: 20px;
     overflow: hidden;
   }
@@ -305,6 +305,8 @@ line-height: 90px; /* 93.75% */
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)); /* Adjust gradient as needed */
     pointer-events: none; /* Ensure the pseudo-element doesn't interfere with mouse events */
   }
+
+  
   
 
   .hero-image-wrapper::before img {
