@@ -831,7 +831,7 @@ footer {
 
 .member-icon-wrapper {
   display: flex;
-  gap: 15px;
+  gap: 8px;
   width: calc(50% - 70px);
   padding: 30px;
   align-items: center;
@@ -841,10 +841,14 @@ footer {
   color: white;
   min-height: 250px;
   border-radius: 15px;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 800;
   transition: background 0.3s, box-shadow 0.3s;
   /* Add box-shadow to transition property */
+}
+
+.member-icon-wrapper iconify-icon {
+  font-size: 60px;
 }
 
 .member-icon-wrapper:hover {
