@@ -546,6 +546,12 @@ footer {
 
   .flex-container {
     gap: 5px;
+    flex-direction: column;
+  }
+
+  .image-flex-column {
+    gap: 5px;
+    flex-direction: row;
   }
 
   .image-container img {
@@ -605,7 +611,12 @@ footer {
   }
 
   .header .nav ul {
-    gap: 10px;
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .button-primary {
+    min-width: 40px;
   }
 
   .header .text-wrapper {
@@ -626,7 +637,6 @@ footer {
   body>footer>ul {
     display: none;
   }
-
 }
 
 
