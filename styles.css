@@ -239,13 +239,13 @@ section {
 
 .flex-container {
   display: flex;
-  gap: 25px;
+  gap: 10px;
 }
 
 .flex-container-column {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 10px;
 }
 
 
@@ -282,7 +282,7 @@ section {
 
 .image-flex-column {
   display: flex;
-  gap: 25px;
+  gap: 10px;
   flex-direction: column;
 }
 
@@ -484,7 +484,7 @@ footer {
   outline: 1px solid #DCDCDC;
   overflow: hidden;
   background-color: white;
-  width: calc(25% - 25px);
+  width: calc(25% - 10px);
   transition: background-color 0.3s;
 }
 
@@ -497,7 +497,7 @@ footer {
 
 .dare-products {
   display: flex;
-  gap: 25px;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
