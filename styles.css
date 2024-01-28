@@ -260,7 +260,7 @@ section {
   border-radius: 20px;
   overflow: hidden;
 }
-/*
+
 .image-container-hero {
   flex: 1;
   position: relative;
@@ -268,6 +268,7 @@ section {
   border-radius: 20px;
   overflow: hidden;
   width: 100%;
+  /* Take up full width */
 }
 
 .image-container-hero img {
@@ -277,32 +278,6 @@ section {
   object-fit: cover;
   overflow: hidden;
 }
-*/
-
-.image-container-hero {
-  position: relative;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  animation: scroll 15s linear infinite;
-}
-
-.slider img {
-  width: 100%;
-  height: auto;
-}
-
-@keyframes scroll {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(-300%);
-  }
-}
-
 
 .image-flex-column {
   display: flex;
