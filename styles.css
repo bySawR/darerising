@@ -829,6 +829,7 @@ footer {
   padding: 8px;
   border-radius: 10px;
   align-items: center;
+  font-size: 24px;
   justify-content: center;
   display: flex;
   background-color: var(--blue);
