@@ -352,7 +352,7 @@ section {
 
 
 .image-container img {
-  width: 100%;
+  min-width: 400px;
   height: 250px;
   display: block;
   object-fit: cover;
@@ -555,6 +555,7 @@ footer {
 
   .image-container img {
     height: 200px;
+    width: 100%;
   }
 
   .text-overlay {
