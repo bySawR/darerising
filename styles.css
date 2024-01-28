@@ -643,6 +643,8 @@ line-height: normal;
 
 .dare-member-wrapper img {
   width: 100%;
+  object-fit: cover;
+  height: 450px;
   border-radius: 20px;
 }
 
