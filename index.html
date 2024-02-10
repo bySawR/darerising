@@ -50,13 +50,28 @@
         </div>
     </header>
 <body class="body-padding">
+
     <section class="hero">
-        <div class="flex-container">
-            <div class="image-container-hero">
-                <img src="assets/merch/DARE-MERCH-01.JPG" alt="Hero Image">
-                <div class="text-overlay-hero">A Multi-Media<br>Gaming Organization</div>
+        <div id="slider-container">
+            <div id="slider">
+              <div class="slide">
+                <img src="assets/merch/DARE-MERCH-01.JPG">
+                <div class="caption">A Multi-Media Gaming Organization</div>
+              </div>
+              <div class="slide">
+                <img src="assets/background-logo.png">
+                <div class="caption">Members</div>
+                <a href="members.html" id="cta-button">Browse members</a>
+              </div>
+              <div class="slide">
+                <img src="assets/merch/DARE-MERCH-01.JPG">
+                <div class="caption">A Multi-Media Gaming Organization</div>
+              </div>
+              <!-- Add more slides as needed -->
             </div>
-    </section>
+          </div>
+</section>
+
 
     <section class="fade-in-bottom">
         <div class="dare-heading-left">Meet our members</div>
@@ -171,3 +186,22 @@
         </li>
     </ul>
 </footer>
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlider();
+    }
+  
+    function updateSlider() {
+      const newPosition = -currentIndex * 100 + '%';
+      document.getElementById('slider').style.transform = 'translateX(' + newPosition + ')';
+    }
+  
+    // Automatically change the slide every 3 seconds
+    setInterval(nextSlide, 5000);
+  </script>
+  
+  
