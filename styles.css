@@ -381,9 +381,8 @@ section {
 .text-overlay-hero {
   color: #FFF;
   text-align: center;
-  font-size: 72px;
+  font-size: 84px;
   font-style: normal;
-  font-weight: 600;
   line-height: 72px;
   /* 93.75% */
 }
@@ -434,6 +433,17 @@ section {
   line-height: 56px;
   padding-top: 30px;
   text-align: center;
+  padding-bottom: 30px;
+}
+
+.dare-heading-left {
+  color: inherit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  padding-top: 30px;
+  text-align: left;
   padding-bottom: 30px;
 }
 
