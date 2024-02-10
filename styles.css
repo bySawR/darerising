@@ -890,3 +890,17 @@ footer {
   flex-wrap: wrap;
 }
 
+.cta-button-text {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  display: none;
+  transition: 0.2s;
+}
+
+.member-icon-wrapper:hover .cta-button-text {
+  display: flex;
+  transition: 0.2s;
+}
+
