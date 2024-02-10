@@ -712,9 +712,9 @@ footer {
 }
 
 .dare-member-wrapper img {
-  width: 100%;
   object-fit: cover;
-  height: 400px;
+  height: 500px;
+  width: 500px;
   border-radius: 20px;
 }
 
