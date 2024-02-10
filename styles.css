@@ -870,7 +870,10 @@ footer {
     padding: 30px;
     align-items: flex-end;
     justify-content: flex-start;
-    background: var(--dark);
+    background-image: url('background-normal-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     height: 150px;
     border-radius: 15px;
@@ -888,12 +891,12 @@ footer {
 }
 
 .member-icon-wrapper:hover iconify-icon {
-    background: var(--darkgrey);
 }
 
 .member-icon-wrapper:hover {
-  background: var(--blue);
+  background-image: url('background-hover-image.jpg');
   color: white;
+
   box-shadow: 0 0 0 5px var(--black);
   /* Add box-shadow for outline */
 }
@@ -966,12 +969,18 @@ footer {
   top: calc(60% + 5px); /* Adjusted to include a 5px gap */
   left: 50%;
   transform: translateX(-50%);
-  padding: 10px 20px;
+  padding: 20px 30px;
   font-size: 16px;
   color: #fff;
   background-color: #007bff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+#cta-button:hover {
+  background-color: var(--dark-blue);
 }
