@@ -882,6 +882,13 @@ footer {
 
 .member-icon-wrapper iconify-icon {
   font-size: 30px;
+    padding: 10px;
+    border-radius: 600px;
+    background: var(--blue);
+}
+
+.member-icon-wrapper:hover iconify-icon {
+    background: var(--darkgrey);
 }
 
 .member-icon-wrapper:hover {
