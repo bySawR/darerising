@@ -63,6 +63,7 @@ body>footer>ul {
   text-decoration: underline;
   text-decoration-color: var(--blue);
   text-decoration-thickness: 2px;
+  color: var(--blue);
 }
 
 a {
@@ -835,22 +836,20 @@ footer {
   padding: 16px;
   text-decoration: none;
   display: flex;
-  gap: 8px;
+  gap: 12px;
   z-index: 1;
   font-weight: normal;
   text-decoration: none!important;
   align-items: center;
+  border-bottom: 1px solid var(--darkgrey);
 }
 
 .dropdown-content iconify-icon {
   color: white;
-  padding: 8px;
-  border-radius: 10px;
   align-items: center;
   font-size: 24px;
   justify-content: center;
   display: flex;
-  background-color: var(--blue);
 }
 
 /* Change color on hover */
