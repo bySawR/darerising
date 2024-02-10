@@ -893,14 +893,17 @@ footer {
 .cta-button-text {
   font-size: 20px;
   font-weight: 400;
-  display: flex;
-  align-items: center;
   display: none;
-  transition: 0.2s;
+  align-items: center;
+  transform: scale(0);
+  transition: transform 0.2s;
 }
 
 .member-icon-wrapper:hover .cta-button-text {
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.2s;
   display: flex;
-  transition: 0.2s;
 }
+
 
