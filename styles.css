@@ -734,7 +734,7 @@ footer {
 
 .dare-member-wrapper img {
   object-fit: cover;
-  height: 300px;
+  height: 40vh;
   width: 100%;
   border-radius: 20px;
 }
