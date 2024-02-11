@@ -545,6 +545,14 @@ footer {
     padding: 0px 10px;
   }
 
+  .member-icon-wrapper {
+    width: calc(100% - 70px)!important;
+  }
+
+  .flex-container-dare {
+    flex-direction: column;
+  }
+
   .text-overlay-hero {
     font-size: 28px;
     line-height: 32px;
@@ -733,11 +741,24 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   .dare-member-wrapper {
-    width: 100%;
+    width: calc(50% - 10px);
+  }
+
+  .caption {
+    font-size: 30px!important;
+    line-height: 30px!important;
+  }
+
+  .slide {
+    height: 300px!important;
+  }
+
+  .dare-member-wrapper img {
+    height: 200px;
   }
 
   .members-wrapper {
-    gap: 25px;
+    gap: 10px;
   }
 
   .member-name {
